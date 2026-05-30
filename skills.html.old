@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills — Hande Gaytri</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Hande Gaytri</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <h2>Skills</h2>
+    <section>
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+      </ul>
+
+      <h3>Tools & Technologies</h3>
+      <ul>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+        <li>Arduino / Microcontrollers</li>
+        <li>Linux basics</li>
+      </ul>
+
+      <h3>Coursework</h3>
+      <ul>
+        <li>Data Structures</li>
+        <li>Discrete Mathematics</li>
+        <li>Signals & Systems</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Hande Gaytri</div>
+  </footer>
+</body>
+</html>

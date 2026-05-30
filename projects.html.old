@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Hande Gaytri</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Hande Gaytri</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <h2>Projects</h2>
+    <section class="grid">
+      <article class="card">
+        <h3>Smart Attendance System</h3>
+        <p>RFID + Microcontroller system to take attendance, store logs, and export CSV files.</p>
+      </article>
+      <article class="card">
+        <h3>Personal Website</h3>
+        <p>This portfolio site built with vanilla HTML, CSS, and a small amount of JavaScript.</p>
+      </article>
+      <article class="card">
+        <h3>Chatbot Prototype</h3>
+        <p>A small rule-based chatbot for answering campus FAQs, built with Python.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Hande Gaytri</div>
+  </footer>
+</body>
+</html>

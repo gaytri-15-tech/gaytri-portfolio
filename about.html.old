@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Hande Gaytri</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Hande Gaytri</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <h2>About Me</h2>
+    <p>I am a 2nd year engineering student currently studying core engineering fundamentals along with programming and electronics. I am passionate about learning full-stack development, embedded systems, and algorithms.</p>
+
+    <h3>Education</h3>
+    <ul>
+      <li>2nd Year, Bachelor of Engineering</li>
+      <li>Relevant coursework: Data Structures, Discrete Mathematics, Electronics, Signals & Systems</li>
+    </ul>
+
+    <h3>Goals</h3>
+    <p>To build reliable software and hardware projects, contribute to open-source, and intern at a company that improves my practical skills.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Hande Gaytri</div>
+  </footer>
+</body>
+</html>

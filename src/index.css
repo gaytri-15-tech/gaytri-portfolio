@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300;
+}
+
+/* Glassmorphism */
+.glass {
+  @apply bg-white/10 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/10;
+}
+
+.glass-light {
+  @apply bg-white/20 dark:bg-white/10 backdrop-blur-lg border border-white/30 dark:border-white/20;
+}
+
+/* Gradient Text */
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent;
+}
+
+.gradient-text-light {
+  @apply bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+}
+
+/* Smooth transitions */
+@layer components {
+  .smooth-transition {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-blue-500/50 transform hover:scale-105 smooth-transition;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg font-medium hover:bg-blue-600/10 smooth-transition;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center mb-12 gradient-text;
+  }
+
+  .dark .section-title {
+    @apply bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply glass p-6 rounded-2xl hover:shadow-2xl smooth-transition hover:translate-y-[-5px];
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-500 rounded-full hover:bg-blue-600;
+}
