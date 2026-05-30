@@ -14,7 +14,7 @@ const Education = () => {
       year: '2023 - Present',
       details: 'Currently Pursuing Second Year',
       cgpa: 'CGPA: 8.32',
-      icon: FiGraduationCap,
+      icon: FaGraduationCap,
     },
     {
       degree: '12th Standard',
