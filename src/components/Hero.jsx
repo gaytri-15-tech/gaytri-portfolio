@@ -112,9 +112,10 @@ const Hero = () => {
             <FiCode /> View Projects
           </motion.a>
           <motion.a
-            href="https://drive.google.com/file/d/your-resume-id/view"
+            href="/Gaytri_Hande_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            download="Gaytri_Hande_Resume.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="btn-secondary flex items-center gap-2"

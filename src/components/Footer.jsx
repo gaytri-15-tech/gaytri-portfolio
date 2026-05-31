@@ -62,7 +62,7 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-blue-400 smooth-transition">
+                <a href="/Gaytri_Hande_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 smooth-transition">
                   Resume
                 </a>
               </li>
